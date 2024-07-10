@@ -15,9 +15,9 @@ build:
     # rust: "1.64"
     # golang: "1.19"
 
-# Build documentation in the root directory with Sphinx
+# Build documentation in the "docs/" directory with Sphinx
 sphinx:
-  configuration: base-optimizacionelipaquete/conf.py
+  configuration: docs/conf.py
 
 # Optionally build your docs in additional formats such as PDF and ePub
 # formats:
@@ -29,4 +29,4 @@ sphinx:
 # See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
 python:
   install:
-    - requirements: base-optimizacionelipaquete/requirements.txt
+   - requirements: docs/requirements.txt
