@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
+VERSION = '0.0.3'
 DESCRIPTION = 'Métodos de optimización'
 LONG_DESCRIPTION = 'Paquete de Python para compartir los algoritmos de optimización univariable y multivariable y funciones objetivo que se desarrollen en clase.'
 
