@@ -34,6 +34,6 @@ exclude_patterns = ['docs/_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'alabaster'
 html_static_path = ['docs/_static']
 
-import os
-import sys
-sys.path.insert(0, os.path.abspath('C:\Users\marth\OneDrive\Documentos\GitHub\paqueteoptimizacioneli\base-optimizacionelipaquete\docs'))
+#import os
+#import sys
+#sys.path.insert(0, os.path.abspath('.'))
